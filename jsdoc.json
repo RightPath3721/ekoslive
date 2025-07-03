@@ -1,0 +1,30 @@
+{
+	"source": {
+		"include": ["src", "package.json", "README.md", "landing-page"],
+		"includePattern": ".+(js|jsx|ts|tsx)$",
+		"excludePattern": "(node_modules/|docs|build|out)"
+	},
+	"templates": {
+		"default": {
+			"outputSourceFiles": true
+		}
+	},
+	"opts": {
+		"encoding": "utf8",
+		"readme": "./README.md",
+		"destination": "docs/",
+		"recurse": true,
+		"verbose": false,
+		"template": "node_modules/clean-jsdoc-theme"
+	},
+	"theme_opts": {
+		"homepageTitle": "EkosLive Documentation",
+		"includeFilesListInHomepage": true,
+		"theme": "dark",
+		"sections": ["Global", "Interfaces", "Modules"]
+	},
+	"markdown": {
+		"hardwrap": false,
+		"idInHeadings": true
+	}
+}

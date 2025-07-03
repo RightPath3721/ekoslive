@@ -1,0 +1,304 @@
+{
+  "user": {
+    "username": "pavlo",
+    "full_name": "posternak",
+    "email": "pavlo@ikarustech.com"
+  },
+  "gear": {
+    "telescopes": [
+      {
+        "model": "EON 120",
+        "vendor": "Orion",
+        "id": "3",
+        "type": "Refractor",
+        "focal_length": 900,
+        "name": "Orion EON 120 900@F/7.5",
+        "aperture": 120
+      },
+      {
+        "model": "Guide/Foo",
+        "vendor": "Orion",
+        "id": "4",
+        "type": "Refractor",
+        "focal_length": 163,
+        "name": "Orion Guide/Foo 163@F/3.3",
+        "aperture": 50
+      }
+    ],
+    "dslr_lenses": [
+      {
+        "name": "Nikon AS-F 300@F/6.3",
+        "model": "AS-F",
+        "vendor": "Nikon",
+        "id": "1",
+        "focal_ratio": 6.3,
+        "focal_length": 300
+      },
+      {
+        "name": "Samyang 135mm 135@F/2.8",
+        "model": "135mm",
+        "vendor": "Samyang",
+        "id": "2",
+        "focal_ratio": 2.8,
+        "focal_length": 135
+      }
+    ],
+    "filters": [{}]
+  },
+  "optical_trains": [
+    {
+      "name": "",
+      "id": "",
+      "equipment_list": [""],
+      "reducer_barlow_value": "",
+      "calculated_fov_degrees": {
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+
+  "environment": {
+    "geographic_location": {
+      "elevation": 37.10000228881836,
+      "latitude": 29.1137137,
+      "longitude": 48.1012791
+    },
+    "utc_offset": "-07:00",
+    "weather": {
+      "temperature_celsius": 18,
+      "humidity_percent": 40,
+      "dew_point_celsius": "",
+      "cloud_cover_percent": 99,
+      "rain_mm": 0
+    },
+    "sky_quality": {
+      "longitude": 48.1013642,
+      "artificial": 10088.22,
+      "latitude": 29.1137305,
+      "brightness": 10.26,
+      "bortle": 9,
+      "magnitude": 17.56
+    }
+  },
+  "ekos_system": {},
+  "presets": {
+    "previewPreset": {
+      "dark": false,
+      "iso": 0,
+      "offset": "--",
+      "gain": "--",
+      "filter": "--",
+      "captureFormat": "--",
+      "temperature": "--",
+      "bin": 1,
+      "exp": 1.5,
+      "transferFormat": "",
+      "frameType": 0
+    },
+    "focusPresets": [
+      {
+        "name": "Default"
+      }
+    ],
+    "currentGuidePreset": "Default",
+    "guidePresets": [
+      {
+        "name": "Default"
+      }
+    ],
+    "currentCapturePreset": "Default",
+    "capturePresets": [
+      {
+        "name": "Default"
+      }
+    ],
+    "alignPresets": [
+      {
+        "name": "Default"
+      }
+    ],
+    "currentAlignPreset": "Default",
+    "currentFocusPreset": "Default",
+    "presetCopyIndex": 0
+  },
+  "device": {},
+  "targets": [
+    {
+      "info": {
+        "ra0": 0.7123194444444443,
+        "name": "M 31",
+        "magnitude": 4.360000133514404,
+        "de0": 41.26905555555555,
+        "a": 177.8300018310547,
+        "designations": ["Andromeda Galaxy", "PGC 2557", "UGC 454", "NGC 224"],
+        "pa": 35,
+        "de": 41.40231625100628,
+        "ra": 0.7338709769451539,
+        "b": 69.66000366210938
+      },
+      "metadata": {
+        "preview": "/hips/hips_f6b5839135f815ce7050c08f7a097645",
+        "zoom": 20000,
+        "uuid": "hips_f6b5839135f815ce7050c08f7a097645",
+        "resolution": "512x512",
+        "bin": "1x1",
+        "name": "M 31",
+        "fov_w": "1.60917",
+        "ext": "jpg",
+        "fov_h": "1.90502"
+      }
+    },
+    {
+      "info": {
+        "ra0": 1.564136111111111,
+        "name": "M 33",
+        "magnitude": 6.269999980926514,
+        "de0": 30.66022222222222,
+        "a": 62.09000015258789,
+        "designations": [
+          "Triangulum Galaxy",
+          "Triangulum Pinwheel",
+          "PGC 5818",
+          "UGC 1117",
+          "NGC 598"
+        ],
+        "pa": 23,
+        "de": 30.784707581765687,
+        "ra": 1.5865069662658917,
+        "b": 36.72999954223633
+      },
+      "metadata": {
+        "preview": "/hips/hips_2fae24a552108e5b60163a62d13272ce",
+        "zoom": 20000,
+        "uuid": "hips_2fae24a552108e5b60163a62d13272ce",
+        "resolution": "512x512",
+        "bin": "1x1",
+        "name": "M 33",
+        "fov_w": "1.84111",
+        "ext": "jpg",
+        "fov_h": "1.83796"
+      }
+    }
+  ],
+  "Almanac": {
+    "MoonData": {
+      "Rise": "2023-04-23T23:40:00Z",
+      "Set": "2023-04-24T10:15:00Z"
+    },
+    "SunData": {
+      "Rise": "2023-04-23T06:00:00Z",
+      "Set": "2023-04-23T18:30:00Z"
+    },
+    "Twilight": {
+      "CivilBegin": "2023-04-23T05:35:00Z",
+      "NauticalBegin": "2023-04-23T05:00:00Z"
+    },
+    "LocalSiderealTime": "13:37:00"
+  },
+  "images": [
+    {
+      "thumbnail": "http://192.168.1.10/thumbs/f393fc77ebd84dd2a381e7202a8b4932",
+      "raw": "http://192.168.1.10/raws/f393fc77ebd84dd2a381e7202a8b4932",
+      "src": "http://192.168.1.10/previews/f393fc77ebd84dd2a381e7202a8b4932",
+      "metadata": {
+        "raw": "/home/jasem/Pictures/screenshots/Screenshot_20240304_150736.png",
+        "ISO": null,
+        "ybinning": 1,
+        "xbinning": 1,
+        "telescop": null,
+        "sitelong": null,
+        "ypixsz": null,
+        "sitelat": null,
+        "ra": null,
+        "pixsize2": null,
+        "preview": "/home/jasem/.local/share/ekoslive/previews/f393fc77ebd84dd2a381e7202a8b4932",
+        "scale": null,
+        "pixsize1": null,
+        "object": null,
+        "observer": null,
+        "naxis2": 679,
+        "objctdec": null,
+        "frame": "Light",
+        "tags": [],
+        "date-obs": "2024-03-04T15:07:43",
+        "focallen": null,
+        "filter": null,
+        "Content-Disposition": "attachment;filename=Screenshot_20240304_150736.png",
+        "gain": null,
+        "instrume": null,
+        "filename": "Screenshot_20240304_150736.png",
+        "aptdia": null,
+        "dec": null,
+        "filesize": 59937,
+        "ts": 1709564863,
+        "airmass": null,
+        "bitpix": 16,
+        "xpixsz": null,
+        "exptime": 1,
+        "naxis": 2,
+        "thumbnail": "/home/jasem/.local/share/ekoslive/thumbs/f393fc77ebd84dd2a381e7202a8b4932",
+        "objctra": null,
+        "equinox": null,
+        "naxis1": 894,
+        "uuid": "f393fc77ebd84dd2a381e7202a8b4932",
+        "ccd-temp": null,
+        "bzero": 32768,
+        "bscale": 1,
+        "id": 1894
+      }
+    },
+    {
+      "thumbnail": "http://192.168.1.10/thumbs/6a6c9f241eb5440297957465a2c40f56",
+      "raw": "http://192.168.1.10/raws/6a6c9f241eb5440297957465a2c40f56",
+      "src": "http://192.168.1.10/previews/6a6c9f241eb5440297957465a2c40f56",
+      "metadata": {
+        "raw": "/home/jasem/Pictures/testing/Light/G/Light_G__002.fits",
+        "ISO": null,
+        "ybinning": 1,
+        "xbinning": 1,
+        "telescop": "SVBony SV503 420@F\\6.0",
+        "sitelong": 48.10135,
+        "ypixsz": 5.2,
+        "sitelat": 29.11373,
+        "ra": 337.691,
+        "pixsize2": 5.2,
+        "preview": "/home/jasem/.local/share/ekoslive/previews/6a6c9f241eb5440297957465a2c40f56",
+        "scale": 1.344311,
+        "pixsize1": 5.2,
+        "object": null,
+        "observer": null,
+        "naxis2": 1024,
+        "objctdec": "89 22 41.33",
+        "frame": "Light",
+        "tags": [],
+        "date-obs": "2024-02-26T08:20:37.691",
+        "focallen": 798,
+        "filter": "G",
+        "Content-Disposition": "attachment;filename=Light_G__002.fits",
+        "gain": 90,
+        "instrume": "CCD Simulator",
+        "filename": "Light_G__002.fits",
+        "aptdia": 70,
+        "dec": 89.37815,
+        "filesize": 2629440,
+        "ts": 1708935637,
+        "airmass": 2.019527,
+        "bitpix": 16,
+        "xpixsz": 5.2,
+        "exptime": 2,
+        "naxis": 2,
+        "thumbnail": "/home/jasem/.local/share/ekoslive/thumbs/6a6c9f241eb5440297957465a2c40f56",
+        "objctra": "22 30 45.83",
+        "equinox": 2000,
+        "naxis1": 1280,
+        "uuid": "6a6c9f241eb5440297957465a2c40f56",
+        "ccd-temp": -5,
+        "bzero": 32768,
+        "bscale": 1,
+        "id": 1862
+      }
+    }
+  ],
+  "indi": {}
+}

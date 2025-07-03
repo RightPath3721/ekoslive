@@ -1,0 +1,12 @@
+{
+  "pkg": {
+    "bin": "./src/server/index.js",
+    "assets": [
+      "./build/**/**/**",
+      "./.env"
+    ]
+  },
+  "node": {
+    "__dirname": false
+  }
+}

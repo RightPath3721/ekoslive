@@ -1,0 +1,46 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+./temp.mp3
+.idea/workspace.xml
+.github/workflows/deploy_to_staging.yml
+.github/workflows/deploy_to_prod.yml
+# dependencies
+/node_modules
+
+# Server logs
+src/server/logs
+
+
+# reminders
+reminders.json*
+
+# package-lock.json
+
+# testing
+/coverage
+
+# production
+/build
+
+#kes
+*.pem
+
+# misc
+.DS_Store
+.env*
+
+# logs
+logs/*
+
+.idea/*
+
+/software/*
+
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+# temp record file
+temp.mp3
+
+docs/

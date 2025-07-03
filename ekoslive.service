@@ -1,0 +1,12 @@
+[Unit]
+Description=EkosLive Offline
+After=multi-user.target mongodb.service
+
+[Service]
+Type=idle
+ExecStart=/opt/ekoslive/ekoslive
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

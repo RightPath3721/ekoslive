@@ -1,0 +1,5 @@
+[submodule "StellarMateShared"]
+	path = StellarMateShared
+	url = git@github.com:ikarustechnologies/StellarMateShared.git
+	branch = main
+	recursive = true

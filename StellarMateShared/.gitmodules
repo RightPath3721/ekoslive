@@ -1,0 +1,5 @@
+[submodule "shared/i18n/smtranslation"]
+	path = shared/i18n/smtranslation
+	url = git@github.com:knro/smtranslation.git
+	branch = main
+	recursive = true

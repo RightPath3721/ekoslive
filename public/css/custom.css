@@ -1,0 +1,23 @@
+/* Limit height of View cloud images to different available media heights, otherwise it would take all screen */
+@media only screen and (min-height: 800px) {
+	.image-gallery-image > img {
+		object-fit: scale-down;
+		max-height: 560px;
+	}
+}
+
+@media only screen and (max-height: 400px) {
+	.image-gallery-image > img {
+		object-fit: scale-down;
+		max-height: 300px;
+	}
+}
+
+.stella-input::placeholder {
+	color: white;
+}
+
+/* For google autocomplete dropdown */
+.pac-container {
+	z-index: 999999;
+}

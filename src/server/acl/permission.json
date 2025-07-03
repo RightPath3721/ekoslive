@@ -1,0 +1,141 @@
+{
+	"version": "1.2",
+	"permissionList": [
+		{
+			"allow": true,
+			"role": ["SUPER_ADMIN"],
+			"subject": "all",
+			"actions": ["manage"]
+		},
+		{
+			"allow": true,
+			"role": ["*"],
+			"subject": "Observatory",
+			"actions": ["owner", "renter"],
+			"conditions": { "userRole": "owner" }
+		},
+		{
+			"allow": true,
+			"role": ["*"],
+			"subject": "Observatory",
+			"actions": ["renter"],
+			"conditions": { "userRole": "renter" }
+		},
+		{
+			"allow": true,
+			"role": ["*"],
+			"subject": "Observatory",
+			"actions": ["spectator"],
+			"conditions": { "userRole": "spectator" }
+		},
+		{
+			"allow": true,
+			"role": ["REGISTERED"],
+			"subject": "Observatory",
+			"actions": ["read"],
+			"conditions": { "visibility": true }
+		},
+		{
+			"allow": true,
+			"role": ["REGISTERED", "MODERATOR", "ADMIN", "SUPER_ADMIN"],
+			"subject": "AbuseReport",
+			"actions": ["create"],
+			"conditions": {}
+		},
+		{
+			"allow": true,
+			"role": ["*"],
+			"subject": "Dashboard",
+			"actions": ["read"]
+		},
+		{
+			"allow": true,
+			"role": ["ADMIN"],
+			"subject": "Prompt",
+			"actions": ["read"]
+		},
+		{
+			"allow": true,
+			"role": ["MODERATOR", "ADMIN"],
+			"subject": "Manufacturer",
+			"actions": ["update", "delete"],
+			"conditions": { "approved": false }
+		},
+		{
+			"allow": true,
+			"role": ["MODERATOR", "ADMIN"],
+			"subject": "Post",
+			"actions": ["update", "delete"]
+		},
+		{
+			"allow": true,
+			"role": ["*"],
+			"subject": "Post",
+			"actions": ["read"],
+			"userActions": [
+				{
+					"allow": true,
+					"actions": ["update", "delete", "read"],
+					"conditions": { "posted_by": "$socialAccount" }
+				}
+			]
+		},
+		{
+			"allow": true,
+			"role": ["MODERATOR", "ADMIN"],
+			"subject": "COMMENT",
+			"actions": ["update", "delete"]
+		},
+		{
+			"allow": true,
+			"role": ["*"],
+			"subject": "Comment",
+			"actions": ["read"],
+			"userActions": [
+				{
+					"allow": true,
+					"actions": ["update", "delete"],
+					"conditions": { "posted_by": "$socialAccount" }
+				}
+			]
+		},
+		{
+			"allow": true,
+			"role": ["MODERATOR", "ADMIN", "SUPER_ADMIN"],
+			"subject": "ModeratingStatus",
+			"actions": ["read", "delete", "update", "create"],
+			"conditions": {},
+			"userActions": []
+		},
+		{
+			"allow": true,
+			"role": ["ADMIN"],
+			"subject": "User",
+			"actions": ["read", "delete", "update"],
+			"conditions": {},
+			"userActions": []
+		},
+		{
+			"allow": true,
+			"role": ["ADMIN"],
+			"subject": "Ekos",
+			"actions": ["read", "delete", "update"],
+			"conditions": {},
+			"userActions": []
+		},
+		{
+			"allow": true,
+			"role": ["*"],
+			"subject": "Social",
+			"actions": ["read"],
+			"conditions": {},
+			"userActions": [
+				{
+					"allow": true,
+					"actions": ["update", "delete"],
+					"conditions": { "owner": "$_id" }
+				}
+			]
+		}
+	]
+}

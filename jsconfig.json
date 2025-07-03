@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@hooks/*": ["src/client/hooks/*"],
+			"@components/*": ["src/client/Components/*"],
+			"@utils/*": ["src/client/utils/*"],
+			"@services/*": ["src/client/services/*"],
+			"@constants/*": ["src/client/constants/*"],
+			"@redux/*": ["StellarMateShared/shared/redux/*"],
+			"@images/*": ["StellarMateShared/images/*"],
+			"@indi/*": ["StellarMateShared/shared/indi/*"],
+			"@commands": ["StellarMateShared/shared/commands"],
+			"@common/*": ["StellarMateShared/*"],
+			"@client/*": ["src/client/*"],
+			"@config": ["src/client/config"]
+		},
+		"jsx": "react"
+	},
+	"exclude": ["node_modules/*", "build/*", "docs/*", "src/server/*"]
+}
